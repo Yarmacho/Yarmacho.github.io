@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html lang="ru">
+<head>
+    <title>Easy Programing</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Radley&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<div class="wrapper">
+    <!-- Логотип + контакты-->
+  <header class="header">
+                <div class="container">
+                    <div class="header__row">
+                        <div class="header__logo">
+                            <img src="img/logo.svg" alt="">
+                            <h2>Easy Programing</h2>
+                        </div>
+                        <div class="header__buttons">
+                            <div class="auth">
+                                <div class="first__auth__row">  
+                                    <div><img src="img/Phone.svg" alt="">+38(095) 774-96-55</div>
+                                    <div><img src="img/Mail.svg" alt="">dima.yrmak@gmail.com</div>
+                                </div>
+                                <div class="second__auth__row"> 
+                                    <div><img src="img/client-management(19).png" alt="">Авторизация</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </header>
+
+    <div>
+        <div class="container">
+            <div class="specility__rows">
+                <div class="speciality__row">
+                    <div class="first__cards">
+                        
+                    <div class="card__wrapper" onmouseenter="enter(this)" onmouseleave="exit(this)">
+                        <div class="speciality__card__unfilpped">
+                            <div class="speciality__card__header">
+                                <h5>Frontend developer</h5>
+                            </div>
+
+                            <div class="card-content">
+                                <p>Курс включает в себя: обучение в мини-группе в современной мультимедийной аудитории,
+                                    с предоставлением ноутбука, блокнота, ручки;материалы курса в электронном виде:
+                                    краткий конспект каждого занятия, практические примеры, презентации; онлайн
+                                    тестирование с целью проверки усвоения материала после каждого занятия и итоговое по
+                                    всему курсу; сертификат о прохождении курса (в случае успешной сдачи финального
+                                    теста).</p>
+
+                                <ul>
+                                    <li><img src="img/video.png" alt=""> 42 видеокурса</li>
+                                    <li><img src="img/clock.png" alt=""> доступ на 7 месяцев</li>
+                                    <li><img src="img/communicate.png" alt=""> онлайн консультация</li>
+                                    <li><img src="img/diploma.png" alt=""> диплом</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__wrapper" onmouseenter="enter(this)" onmouseleave="exit(this)">
+                        <div class="speciality__card__unfilpped">
+                            <div class="speciality__card__header">
+                                <h5>Backend developer</h5>
+                            </div>
+
+                            <div class="card-content">
+                                <p>Мы расскажем обо всем, что творится в глубине сайта — запросах, обработке данных,
+                                    проверке пользователей. Научим программировать на языке PHP, использовать веб
+                                    серверы apache/nginx, сервер баз данных (СУБД) MySQL. а курсе ты научишься решать
+                                    сложные задачи, сортировать массивы данных без использования готовых алгоритмов и
+                                    создавать игры.</p>
+
+                                <ul>
+                                    <li><img src="img/video.png" alt=""> 35 видеокурсов</li>
+                                    <li><img src="img/clock.png" alt=""> доступ на 6 месяцев</li>
+                                    <li><img src="img/communicate.png" alt=""> онлайн консультация</li>
+                                    <li><img src="img/diploma.png" alt=""> диплом</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="second__cards">
+                        
+                    <div class="card__wrapper" onmouseenter="enter(this)" onmouseleave="exit(this)">
+                        <div class="speciality__card__unfilpped">
+                            <div class="speciality__card__header">
+                                <h5>Python developer</h5>
+                            </div>
+
+                            <div class="card-content">
+                                <p>Курс Python Developer включает в себя: онлайн обучение в мини-группе с использованием
+                                    программы Zoom;доступ ко всем видео курсам по специальности Python Developer на 5
+                                    месяцев;материалы курса в электронном виде: краткий конспект каждого занятия,
+                                    практические примеры, презентации; онлайн тестирование с целью проверки усвоения
+                                    материала после каждого занятия и итоговое по всему курсу; </p>
+                                <ul>
+                                    <li><img src="img/video.png" alt=""> 18 видеокурсов</li>
+                                    <li><img src="img/clock.png" alt=""> Доступ на 6 месяцев</li>
+                                    <li><img src="img/communicate.png" alt=""> онлайн консультация</li>
+                                    <li><img src="img/diploma.png" alt=""> диплом</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__wrapper" onmouseenter="enter(this)" onmouseleave="exit(this)">
+                        <div class="speciality__card__unfilpped">
+                            <div class="speciality__card__header">
+                                <h5>React developer</h5>
+                            </div>
+
+                            <div class="card-content">
+                                <p>На данном курсе учащиеся напишут небольшое приложение с помощью React, научатся
+                                    разбивать его на логические части и компоненты, попрактикуются в написании стилей
+                                    вместе с CSS Modules, а также познакомятся с основными концепциями написания
+                                    приложения при помощи данной платформы. React — очень популярный JavaScript
+                                    фреймворк, который применяется в построении пользовательских интерфейсов
+                                    веб-приложений. Главная особенность данной платформы — компонентно-ориентированный
+                                    подход, позволяющий переиспользовать код, что повышает общую гибкость написания
+                                    приложений.</p>
+                                <ul>
+                                    <li><img src="img/video.png" alt=""> 15 видеокурсов</li>
+                                    <li><img src="img/clock.png" alt=""> доступ на 5 месяцев</li>
+                                    <li><img src="img/communicate.png" alt=""> онлайн консультация</li>
+                                    <li><img src="img/diploma.png" alt=""> диплом</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                </div>
+                <div class="speciality__row">
+                    <div class="first__cards">
+                        
+                    <div class="card__wrapper" onmouseenter="enter(this)" onmouseleave="exit(this)">
+                        <div class="speciality__card__unfilpped">
+                            <div class="speciality__card__header">
+                                <h5>JavaScript developer</h5>
+                            </div>
+
+                            <div class="card-content">
+                                <p>Вы с нуля научитесь создавать приложения и веб-страницы на JavaScript, быстро
+                                    проектировать REST-сервисы с помощью Web API. Отработаете полученные знания на
+                                    практике и соберёте портфолио. Ускорите ваш рабочий процесс с библиотеками React,
+                                    научитесь настраивать командный доступ с Git и делать более чистые и качественные
+                                    сайты.</p>
+                                <ul>
+                                    <li><img src="img/video.png" alt=""> 9 видеокурсов</li>
+                                    <li><img src="img/clock.png" alt=""> доступ на 3 месяца</li>
+                                    <li><img src="img/communicate.png" alt=""> онлайн консультация</li>
+                                    <li><img src="img/diploma.png" alt=""> диплом</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card__wrapper" onmouseenter="enter(this)" onmouseleave="exit(this)">
+                        <div class="speciality__card__unfilpped">
+                            <div class="speciality__card__header">
+                                <h5>ASP.Net developer</h5>
+                            </div>
+
+                            <div class="card-content">
+                                <p>Easy Programing предоставляет комплексную программу обучения профессии ASP.NET Core
+                                    разработчика, которая включает в себя самообучение по видео курсам, выполнение
+                                    домашних заданий, проверку знаний с помощью онлайн тестирования, формирования
+                                    навыков написания кода (интерактивные тренажеры), консультации с ментором.</p>
+                                <ul>
+                                    <li><img src="img/video.png" alt=""> 20 видеокурсов</li>
+                                    <li><img src="img/clock.png" alt=""> доступ на 6 месяцев</li>
+                                    <li><img src="img/communicate.png" alt=""> онлайн консультация</li>
+                                    <li><img src="img/diploma.png" alt=""> диплом</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    </div>
+                    <div class="second__cards">
+                        <div class="card__wrapper" onmouseenter="enter(this)" onmouseleave="exit(this)">
+                            <div class="speciality__card__unfilpped">
+                                <div class="speciality__card__header">
+                                    <h5>Java developer</h5>
+                                </div>
+
+                                <div class="card-content">
+                                    <p>Курс Java Developer длится 4 месяца и включает в себя: онлайн обучение в мини-группе
+                                        с использованием программы Zoom;доступ ко всем видео курсам по специальности Java
+                                        Developer на 6 месяцевматериалы курса в электронном виде: краткий конспект каждого
+                                        занятия, практические примеры, презентации; онлайн тестирование с целью проверки
+                                        усвоения материала после каждого занятия и итоговое по всему курсу; </p>
+
+                                    <ul>
+                                        <li><img src="img/video.png" alt=""> 28 видеокурсов</li>
+                                        <li><img src="img/clock.png" alt=""> доступ на 7 месяцев</li>
+                                        <li><img src="img/communicate.png" alt=""> онлайн консультация</li>
+                                        <li><img src="img/diploma.png" alt=""> диплом</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card__wrapper" onmouseenter="enter(this)" onmouseleave="exit(this)">
+                            <div class="speciality__card__unfilpped">
+                                <div class="speciality__card__header">
+                                    <h5>Android developer</h5>
+                                </div>
+
+                                <div class="card-content">
+                                    <p>Easy Programing предоставляет комплексную программу обучения профессии Android
+                                        разработчика, которая включает в себя самообучение по видео курсам, выполнение
+                                        домашних заданий, проверку знаний с помощью онлайн тестирования, формирования
+                                        навыков написания кода (интерактивные тренажеры), консультации с ментором.</p>
+
+                                    <ul>
+                                        <li><img src="img/video.png" alt=""> 21 видеокурс</li>
+                                        <li><img src="img/clock.png" alt=""> доступ на 5 месяцев</li>
+                                        <li><img src="img/communicate.png" alt=""> онлайн консультация</li>
+                                        <li><img src="img/diploma.png" alt=""> диплом</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div>
+                <div class="container">
+                    <div class="subscribe__row">
+
+                        <div class="sub__title">
+                            <h3>ПАКЕТЫ ПОДПИСКИ С ДОСТУПОМ КО ВСЕМ КУРСАМ И СЕРВИСАМ</h3>
+                        </div>
+
+                        <div class="subscribes">
+                            <div class="first__sub__row">
+                                <div class="subscribe">
+                                    <div class="sub__head sub__starter">
+                                        <p>Стартовый</p>
+                                    </div>
+                                    <div class="sub__body">
+                                        <p class="sub_item sub__item__starter">ВСЕ ВИДЕОКУРСЫ НА 3 МЕСЯЦА</p>
+                                        <p class="sub_item sub__item__starter">ТЕСТИРОВАНИЕ ПО 6 КУРСАМ</p>
+                                        <p class="sub_item sub__item__starter">ПРОВЕРКА 5 ДОМАШНИХ ЗАДАНИЙ</p>
+                                        <p class="sub_item sub__item__starter">КОНСУЛЬТАЦИЯ С ТРЕНЕРОМ 30 МИН</p>
+                                        <div class="sub__buy">
+                                            <p class="sub__text sub__starter">Подписка</p>
+                                            <span class="sub__price sub__price__starter">19 99$</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="subscribe">
+                                    <div class="sub__head sub__base">
+                                        <p>Базовый</p>
+                                    </div>
+                                    <div class="sub__body">
+                                        <p class="sub_item sub__item__base">ВСЕ ВИДЕОКУРСЫ НА 6 МЕСЯЦЕВ</p>
+                                        <p class="sub_item sub__item__base">ТЕСТИРОВАНИЕ ПО 8 КУРСАМ</p>
+                                        <p class="sub_item sub__item__base">ПРОВЕРКА 10 ДОМАШНИХ ЗАДАНИЙ</p>
+                                        <p class="sub_item sub__item__base">КОНСУЛЬТАЦИЯ С ТРЕНЕРОМ 60 МИН</p>
+                                        <div class="sub__buy">
+                                            <p class="sub__text sub__base">Подписка</p>
+                                            <span class="sub__price sub__price__base">29 99$</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="second__sub__row">
+                                <div class="subscribe">
+                                    <div class="sub__head sub__premium">
+                                        <p>Премиум</p>
+                                    </div>
+                                    <div class="sub__body">
+                                        <p class="sub_item sub__item__premium">ВСЕ ВИДЕОКУРСЫ НА 12 МЕСЯЦЕВ</p>
+                                        <p class="sub_item sub__item__premium">ТЕСТИРОВАНИЕ ПО 16 КУРСАМ</p>
+                                        <p class="sub_item sub__item__premium">ПРОВЕРКА 20 ДОМАШНИХ ЗАДАНИЙ</p>
+                                        <p class="sub_item sub__item__premium">КОНСУЛЬТАЦИЯ С ТРЕНЕРОМ 120 МИН</p>
+                                        <div class="sub__buy">
+                                            <p class="sub__text sub__premium">Подписка</p>
+                                            <span class="sub__price sub__price__premium">34.99$</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+    <div>
+        <div class="container">
+            <footer>
+                <div class="footer__row">
+                    <div class="study footer__item">
+                        <p>ОБУЧЕНИЕ</p>
+
+                        <ul>
+                            <li>Консультация с тренером</li>
+                            <li>Каталог курсов</li>
+                            <li>IT специальности</li>
+                            <li>Планы подписок</li>
+                            <li>Подарочные сертификаты</li>
+                            <li>Live-Online обучение</li>
+                            <li>Видео канал</li>
+                            <li>Статьи</li>
+                            <li>Форум</li>
+                        </ul>
+                    </div>
+                    <div class="popular footer__item">
+                        <p>ПОПУЛЯРНОЕ</p>
+
+                        <ul>
+                            <li>JavaScript для начинающих</li>
+                            <li>Уроки Python</li>
+                            <li>Уроки Java</li>
+                            <li>Уроки C#</li>
+                            <li>Уроки Angular</li>
+                            <li>Уроки PHP</li>
+                            <li>Уроки C++</li>
+                            <li>Уроки Android</li>
+                        </ul>
+                    </div>
+
+                    <div class="project footer__item">
+                        <p>О ПРОЕКТЕ</p>
+
+                        <ul>
+                            <li>О проекте</li>
+                            <li>Контакты</li>
+                            <li>FAQ</li>
+                            <li>Архив рассылок</li>
+                            <li>Авторы</li>
+                            <li>Социальный проект</li>
+                        </ul>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/script.js"></script>
+</div>
+</body>
+</html>
